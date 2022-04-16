@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 
-saibi modfication
+saibi modfication - 2022/04/04
 
 CAPS => L-CTRL
 Fn + TAB => CAPS
+
 L-CTRL => Fn
-
-R-CTRL => WIN
-
 PGDN => Fn
+PGUP => Fn
 
 Fn + BS => DEL
 Fn + A => HOME
@@ -17,10 +16,29 @@ Fn + E => END
 Fn + HJKL => LEFT DOWN UP RIGHT
 Fn + SPACE => play/pause
 Fn + BNM => VolDown VolUp Mute
-Fn + LEFT RIGHT => prev next
 
-Fn + D => PgDn
-Fn + F => PgUp
+Fn + D => PGDN
+Fn + U => PGUP
+
+Fn + | => INS
+
+Fn + LEFT => HOME
+Fn + RIGHT => END
+Fn + UP => PGUP
+Fn + DN => PGDN
+
+INS => BT MODE
+DEL => BS
+Fn + DEL => BT1
+Fn + PGUP => BT2
+Fn + PGDN => BT3
+
+Right Fn => WIN
+
+Fn + ; => LEFT
+Fn + '' => RIGHT
+Fn + [ => UP
+Fn + / => DN
 -->
 
 <GTuneGKTuner>
@@ -249,7 +267,10 @@ Fn + F => PgUp
 </ComboKey>
 </KEY>
 
-<KEY ID="15" Level="0" Mode="1" HWCode="81">
+<!-- In => BT mode 
+//<KEY ID="15" Level="0" Mode="1" HWCode="81">
+-->
+<KEY ID="15" Level="0" Mode="7" HWCode="167">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -345,7 +366,11 @@ Fn + E => END
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="23" Level="1" Mode="7" HWCode="168">
+
+<!-- Fn + U => PGUP 
+//<KEY ID="23" Level="1" Mode="7" HWCode="168">
+-->
+<KEY ID="23" Level="1" Mode="1" HWCode="83">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -385,7 +410,11 @@ Fn + E => END
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="27" Level="1" Mode="0" HWCode="0">
+
+<!-- Fn + [ => UP
+//<KEY ID="27" Level="1" Mode="0" HWCode="0">
+-->
+<KEY ID="27" Level="1" Mode="1" HWCode="87">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -405,17 +434,30 @@ Fn + E => END
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="29" Level="1" Mode="0" HWCode="0">
+
+<!-- Fn + \ => INS
+//<KEY ID="29" Level="1" Mode="0" HWCode="0">
+-->
+<KEY ID="29" Level="1" Mode="1" HWCode="81">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="30" Level="0" Mode="1" HWCode="84">
+
+<!-- 
+DEL => BS
+//<KEY ID="30" Level="0" Mode="1" HWCode="84">
+-->
+<KEY ID="30" Level="0" Mode="1" HWCode="27">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="30" Level="1" Mode="0" HWCode="0">
+
+<!-- Fn + DEL => BT1
+//<KEY ID="30" Level="1" Mode="0" HWCode="0">
+-->
+<KEY ID="30" Level="1" Mode="7" HWCode="168">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -467,7 +509,7 @@ Fn + A => HOME
 </ComboKey>
 </KEY>
 <!-- 
-Fn + D => PgDn
+Fn + D => PGDN
 //<KEY ID="34" Level="1" Mode="6" HWCode="127">
 -->
 <KEY ID="34" Level="1" Mode="1" HWCode="86">
@@ -480,11 +522,7 @@ Fn + D => PgDn
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!--
-Fn + F => PgUp
-//<KEY ID="35" Level="1" Mode="0" HWCode="0">
--->
-<KEY ID="35" Level="1" Mode="1" HWCode="83">
+<KEY ID="35" Level="1" Mode="0" HWCode="0">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -554,7 +592,11 @@ Fn + HJKL => LEFT DOWN UP RIGHT
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="41" Level="1" Mode="0" HWCode="0">
+
+<!-- Fn + ; => LEFT 
+//<KEY ID="41" Level="1" Mode="0" HWCode="0">
+-->
+<KEY ID="41" Level="1" Mode="1" HWCode="88">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -564,7 +606,11 @@ Fn + HJKL => LEFT DOWN UP RIGHT
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="42" Level="1" Mode="7" HWCode="149">
+
+<!-- Fn + '' ==> RIGHT
+//<KEY ID="42" Level="1" Mode="7" HWCode="149">
+-->
+<KEY ID="42" Level="1" Mode="1" HWCode="90">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -579,12 +625,19 @@ Fn + HJKL => LEFT DOWN UP RIGHT
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="44" Level="0" Mode="1" HWCode="83">
+<!-- PGUP => Fn 
+//<KEY ID="44" Level="0" Mode="1" HWCode="83">
+-->
+<KEY ID="44" Level="0" Mode="7" HWCode="156">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="44" Level="1" Mode="1" HWCode="82">
+
+<!-- Fn + PGUP => BT2 
+//<KEY ID="44" Level="1" Mode="1" HWCode="82">
+-->
+<KEY ID="44" Level="1" Mode="7" HWCode="169">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -708,7 +761,10 @@ Fn + M => MUTE
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="55" Level="1" Mode="1" HWCode="80">
+<!-- Fn + / => DOWN 
+//<KEY ID="55" Level="1" Mode="1" HWCode="80">
+-->
+<KEY ID="55" Level="1" Mode="1" HWCode="89">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -728,7 +784,10 @@ Fn + M => MUTE
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="57" Level="1" Mode="7" HWCode="145">
+<!-- Fn + UP => PGUP
+//<KEY ID="57" Level="1" Mode="7" HWCode="145">
+-->
+<KEY ID="57" Level="1" Mode="7" HWCode="83">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -743,7 +802,10 @@ PGDN -> Fn
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="58" Level="1" Mode="1" HWCode="85">
+<!-- Fn + PGDN => BT3
+//<KEY ID="58" Level="1" Mode="1" HWCode="85">
+-->
+<KEY ID="58" Level="1" Mode="7" HWCode="170">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -809,7 +871,10 @@ Fn + SPACE => play/pause
 </ComboKey>
 </KEY>
 
-<KEY ID="64" Level="0" Mode="7" HWCode="156">
+<!-- Right Fn => WIN
+//<KEY ID="64" Level="0" Mode="7" HWCode="156">
+-->
+<KEY ID="64" Level="0" Mode="1" HWCode="68">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -819,11 +884,7 @@ Fn + SPACE => play/pause
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- 
-R-CTRL => WIN
-//<KEY ID="65" Level="0" Mode="1" HWCode="74">
--->
-<KEY ID="65" Level="0" Mode="1" HWCode="68">
+<KEY ID="65" Level="0" Mode="1" HWCode="74">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -839,11 +900,11 @@ R-CTRL => WIN
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!--
-Fn + LEFT => prev
+
+<!-- Fn + LEFT => HOME 
 //<KEY ID="66" Level="1" Mode="0" HWCode="0">
 -->
-<KEY ID="66" Level="1" Mode="5" HWCode="109">
+<KEY ID="66" Level="1" Mode="1" HWCode="82">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -853,7 +914,11 @@ Fn + LEFT => prev
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="67" Level="1" Mode="7" HWCode="144">
+
+<!-- Fn + DOWN => PGDN
+//<KEY ID="67" Level="1" Mode="7" HWCode="144">
+-->
+<KEY ID="67" Level="1" Mode="1" HWCode="86">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -863,11 +928,12 @@ Fn + LEFT => prev
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!--
-Fn + RIGHT => next
+
+<!-- 
+Fn + RIGHT => END
 //<KEY ID="68" Level="1" Mode="0" HWCode="0">
 -->
-<KEY ID="68" Level="1" Mode="5" HWCode="108">
+<KEY ID="68" Level="1" Mode="1" HWCode="85">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>

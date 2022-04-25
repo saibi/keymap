@@ -18,9 +18,9 @@ Fn + ENTER => media play/pause
 Fn + BNM => VolDown VolUp Mute
 Fn + H/J => media prev/next
 
-DEL => PRTSC
+DEL => CTRL+V 
 Fn+DEL => PRTSC
-PGUP => CTRL+V
+PGUP => CTRL+C
 Fn+PGUP => PRTSC
 PGDN => Fn 
 Fn => WIN
@@ -436,10 +436,21 @@ Fn + \ => INS
 <!--
 DEL => PRTSC
 //<KEY ID="30" Level="0" Mode="1" HWCode="84">
+//<ComboKey>
+//<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+//</ComboKey>
+//</KEY>
 -->
-<KEY ID="30" Level="0" Mode="1" HWCode="78">
+<KEY ID="30" Level="0" Mode="2" HWCode="0">
 <ComboKey>
-<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
+	<x ID="0" t1="Left CONTROL">
+	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+	</x>
+	<x ID="1" t1="V">
+	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+	</x>
+</List>
 </ComboKey>
 </KEY>
 
@@ -621,7 +632,7 @@ Fn + ENTER => play/pause
 </KEY>
 
 <!--
-PGUP => CTRL+V
+PGUP => CTRL+C
 //<KEY ID="44" Level="0" Mode="1" HWCode="83">
 //<ComboKey>
 //<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
@@ -634,7 +645,7 @@ PGUP => CTRL+V
 	<x ID="0" t1="Left CONTROL">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
-	<x ID="1" t1="V">
+	<x ID="1" t1="C">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
 </List>

@@ -632,7 +632,7 @@ Fn + ENTER => play/pause
 </KEY>
 
 <!--
-PGUP => CTRL+C
+PGUP => CTRL+X
 //<KEY ID="44" Level="0" Mode="1" HWCode="83">
 //<ComboKey>
 //<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
@@ -645,7 +645,7 @@ PGUP => CTRL+C
 	<x ID="0" t1="Left CONTROL">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
-	<x ID="1" t1="C">
+	<x ID="1" t1="X">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
 </List>

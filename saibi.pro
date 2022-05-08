@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 
-saibi modfication - 2022/04/20
+saibi modfication - 2022/05/09
 
 CAPS => L-CTRL
 Fn + TAB => CAPS
-WIN => Fn
-L-CTRL => CTRL+C
-Fn + L-CTRL => CTRL+X
-Fn + L-ALT => CTRL+V
+L-CTRL => FN
 
 Fn + BS => DEL
 INS => "'~"
@@ -632,7 +629,7 @@ Fn + ENTER => play/pause
 </KEY>
 
 <!--
-PGUP => CTRL+X
+PGUP => CTRL+C
 //<KEY ID="44" Level="0" Mode="1" HWCode="83">
 //<ComboKey>
 //<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
@@ -645,7 +642,7 @@ PGUP => CTRL+X
 	<x ID="0" t1="Left CONTROL">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
-	<x ID="1" t1="X">
+	<x ID="1" t1="C">
 	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 	</x>
 </List>
@@ -834,58 +831,27 @@ PGDN => Fn
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
+
 <!-- 
-L-CTRL => CTRL+C
+L-CTRL => Fn
 //<KEY ID="59" Level="0" Mode="1" HWCode="67">
-//<ComboKey>
-//<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-//</ComboKey>
-//</KEY>
 -->
-<KEY ID="59" Level="0" Mode="2" HWCode="0">
+<KEY ID="59" Level="0" Mode="7" HWCode="156">
 <ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-	<x ID="0" t1="Left CONTROL">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-	<x ID="1" t1="C">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-</List>
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
 
-<!-- 
-Fn+L-CTRL => CTRL+X
-//<KEY ID="59" Level="1" Mode="7" HWCode="152">
-//<ComboKey>
-//<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-//</ComboKey>
-//</KEY>
--->
-<KEY ID="59" Level="1" Mode="2" HWCode="0">
-<ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-	<x ID="0" t1="Left CONTROL">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-	<x ID="1" t1="X">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-</List>
-</ComboKey>
-</KEY>
-
-<!--
-WIN => Fn
-//<KEY ID="60" Level="0" Mode="1" HWCode="68">
--->
-<KEY ID="60" Level="0" Mode="7" HWCode="156">
+<KEY ID="59" Level="1" Mode="7" HWCode="152">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-
+<KEY ID="60" Level="0" Mode="1" HWCode="68">
+<ComboKey>
+<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</ComboKey>
+</KEY>
 <KEY ID="60" Level="1" Mode="7" HWCode="153">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>

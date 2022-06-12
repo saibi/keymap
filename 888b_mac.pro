@@ -445,12 +445,30 @@
 </ComboKey>
 </KEY>
 
-<!-- INSERT  -->
+<!-- CMD+SHIFT+4 -->
+<KEY ID="29" Level="0" Mode="2" HWCode="0">
+<ComboKey>
+<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
+<x ID="0" t1="Left Windows">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="1" t1="Left SHIFT">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="2" t1="4">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+</List>
+</ComboKey>
+</KEY>
+<!--
+INSERT
 <KEY ID="29" Level="0" Mode="1" HWCode="81">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
+-->
 <!-- PRTSC -->
 <KEY ID="29" Level="1" Mode="1" HWCode="78">
 <ComboKey>

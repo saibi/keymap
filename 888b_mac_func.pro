@@ -163,6 +163,7 @@
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
+</KEY>
 <!-- PREV -->
 <KEY ID="6" Level="1" Mode="5" HWCode="109">
 <ComboKey>
@@ -177,7 +178,6 @@
 </ComboKey>
 </KEY>
 <!-- 'PLAY/PAUSE' -->
-</KEY>
 <KEY ID="7" Level="1" Mode="5" HWCode="111">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>

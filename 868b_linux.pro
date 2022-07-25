@@ -862,24 +862,9 @@ L-CTRL => Fn
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!--
-Fn + ALT => CTRL+V
-//<KEY ID="61" Level="1" Mode="7" HWCode="155">
-//<ComboKey>
-//<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-//</ComboKey>
-//</KEY>
--->
-<KEY ID="61" Level="1" Mode="2" HWCode="0">
+<KEY ID="61" Level="1" Mode="7" HWCode="155">
 <ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-	<x ID="0" t1="Left CONTROL">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-	<x ID="1" t1="V">
-	<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-	</x>
-</List>
+<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
 

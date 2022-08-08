@@ -262,8 +262,8 @@
 </ComboKey>
 </KEY>
 
-<!-- SLEEP -->
-<KEY ID="14" Level="0" Mode="8" HWCode="76">
+<!-- PRTSC -->
+<KEY ID="14" Level="0" Mode="1" HWCode="78">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -469,8 +469,8 @@ INSERT
 </ComboKey>
 </KEY>
 -->
-<!-- PRTSC -->
-<KEY ID="29" Level="1" Mode="1" HWCode="78">
+<!-- SLEEP -->
+<KEY ID="29" Level="1" Mode="8" HWCode="76">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>

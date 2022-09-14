@@ -268,8 +268,8 @@
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- SLEEP -->
-<KEY ID="14" Level="1" Mode="8" HWCode="76">
+<!-- USER DEFINE MODE -->
+<KEY ID="14" Level="1" Mode="7" HWCode="159">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -473,8 +473,8 @@
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- USER DEFINE MODE -->
-<KEY ID="29" Level="1" Mode="7" HWCode="159">
+<!-- SLEEP -->
+<KEY ID="29" Level="1" Mode="8" HWCode="76">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>

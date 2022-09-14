@@ -262,14 +262,14 @@
 </ComboKey>
 </KEY>
 
-<!-- PRTSC -->
-<KEY ID="14" Level="0" Mode="1" HWCode="78">
+<!-- INSERT -->
+<KEY ID="14" Level="0" Mode="1" HWCode="81">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- USER DEFINE MODE -->
-<KEY ID="14" Level="1" Mode="7" HWCode="159">
+<!-- SLEEP -->
+<KEY ID="14" Level="1" Mode="8" HWCode="76">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -293,9 +293,20 @@
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="16" Level="1" Mode="0" HWCode="0">
+<!-- WIN+SHIFT+S -->
+<KEY ID="16" Level="1" Mode="2" HWCode="0">
 <ComboKey>
-<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
+<x ID="0" t1="Left Windows">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="1" t1="Left SHIFT">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="2" t1="S">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+</List>
 </ComboKey>
 </KEY>
 
@@ -329,9 +340,20 @@
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="19" Level="1" Mode="0" HWCode="0">
+<!-- CMD+SHIFT+4 -->
+<KEY ID="19" Level="1" Mode="2" HWCode="0">
 <ComboKey>
-<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
+<x ID="0" t1="Left Windows">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="1" t1="Left SHIFT">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+<x ID="2" t1="4">
+<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
+</x>
+</List>
 </ComboKey>
 </KEY>
 
@@ -445,32 +467,14 @@
 </ComboKey>
 </KEY>
 
-<!-- WIN+SHIFT+S -->
-<KEY ID="29" Level="0" Mode="2" HWCode="0">
-<ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-<x ID="0" t1="Left Windows">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-<x ID="1" t1="Left SHIFT">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-<x ID="2" t1="S">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-</List>
-</ComboKey>
-</KEY>
-<!--
-INSERT
-<KEY ID="29" Level="0" Mode="1" HWCode="81">
+<!-- PRTSC -->
+<KEY ID="29" Level="0" Mode="1" HWCode="78">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
--->
-<!-- SLEEP -->
-<KEY ID="29" Level="1" Mode="8" HWCode="76">
+<!-- USER DEFINE MODE -->
+<KEY ID="29" Level="1" Mode="7" HWCode="159">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -648,21 +652,14 @@ INSERT
 </ComboKey>
 </KEY>
 
-<!-- CMD+V -->
-<KEY ID="44" Level="0" Mode="2" HWCode="0">
+<!-- PGUP -->
+<KEY ID="44" Level="0" Mode="1" HWCode="83">
 <ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-<x ID="0" t1="Left CONTROL">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-<x ID="1" t1="V">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-</List>
+<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- 'PAUSE' -->
-<KEY ID="44" Level="1" Mode="1" HWCode="80">
+<!-- HOME -->
+<KEY ID="44" Level="1" Mode="1" HWCode="82">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -831,21 +828,14 @@ INSERT
 </ComboKey>
 </KEY>
 
-<!-- CMD+C -->
-<KEY ID="58" Level="0" Mode="2" HWCode="0">
+<!-- PGDN -->
+<KEY ID="58" Level="0" Mode="1" HWCode="86">
 <ComboKey>
-<List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
-<x ID="0" t1="Left CONTROL">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-<x ID="1" t1="C">
-<List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
-</x>
-</List>
+<List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- INSERT -->
-<KEY ID="58" Level="1" Mode="1" HWCode="81">
+<!-- 'END' -->
+<KEY ID="58" Level="1" Mode="1" HWCode="85">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -1020,8 +1010,8 @@ INSERT
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- Fn -->
-<KEY ID="72" Level="1" Mode="7" HWCode="156">
+<!-- 'PAUSE' -->
+<KEY ID="72" Level="1" Mode="1" HWCode="80">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>

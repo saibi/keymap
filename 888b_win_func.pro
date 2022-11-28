@@ -100,7 +100,8 @@
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<KEY ID="1" Level="1" Mode="0" HWCode="0">
+<!-- SLEEP -->
+<KEY ID="1" Level="1" Mode="8" HWCode="76">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -262,8 +263,8 @@
 </ComboKey>
 </KEY>
 
-<!-- INSERT -->
-<KEY ID="14" Level="0" Mode="1" HWCode="81">
+<!-- PRTSC -->
+<KEY ID="14" Level="0" Mode="1" HWCode="78">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
@@ -467,14 +468,14 @@
 </ComboKey>
 </KEY>
 
-<!-- PRTSC -->
-<KEY ID="29" Level="0" Mode="1" HWCode="78">
+<!-- DEL  -->
+<KEY ID="29" Level="0" Mode="1" HWCode="84">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>
 </KEY>
-<!-- SLEEP -->
-<KEY ID="29" Level="1" Mode="8" HWCode="76">
+<!-- INSERT -->
+<KEY ID="29" Level="1" Mode="1" HWCode="81">
 <ComboKey>
 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
 </ComboKey>

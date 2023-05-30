@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-2023/05/30 MAC LAYOUT (ing)
+2023/05/30 MAC LAYOUT 
 
     ESC F1  F2  F3  F4  F5  F6  F7  F8  F9  F10 F11 F12     DEL
 FN      Mut V-  V+  StopPrevPlayNext kp B1  B2  B3  BT      USER
@@ -17,7 +17,7 @@ FN												            INS
     SHI     z   x   c   v   b   n   m   ,<  .>  /?  SHI UP  END
 FN										                *V+
 
-    CTL WIN ALT             SPC         ALT FN  *WINLT  DN  RT
+    *FN WIN ALT             SPC         ALT FN  *WINLT  DN  RT
 FN	>CA	LkWn WM	        *PLAY/PAUSE				*RCT*PR	*V- *NE
 
 *SC : screen shot (cmd+shit+ctl+4)
@@ -955,7 +955,8 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="73" Level="0" Mode="1" HWCode="67">
+    <!-- LEFT CTRL => FN <KEY ID="73" Level="0" Mode="1" HWCode="67"> -->
+    <KEY ID="73" Level="0" Mode="7" HWCode="156">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>

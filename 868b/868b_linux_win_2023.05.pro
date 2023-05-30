@@ -14,15 +14,16 @@ FN												STR	    	HO
     SHI     z   x   c   v   b   n   m   ,<  .>  /?  SHI UP  PGD
 FN										PRT	SLK PAU		*V+	END
 
-    *FN	WIN ALT             SPC         ALT FN  CTL LT  DN  RT
-FN	>CA	LkWn WM			*PLAY/PAUSE					*PR	*V- *NE
+    *FN	WIN ALT             SPC         ALT FN  *WN LT  DN  RT
+FN	>CA	LkWn WM			*PLAY/PAUSE				*RCT*PR	*V- *NE
 
 *PS : PRTSC
 *DL : DEL
 *CA : CAPS
 *IS : INS
 *MU : MUTE
-*CT : CTRL
+*CT : L CTRL
+*RCT : R CTRL
 *PR : Media prev
 *NE : Media next
 *V+ : Volume Up
@@ -849,12 +850,14 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="65" Level="0" Mode="1" HWCode="74">
+    <!-- CTRL => WIN <KEY ID="65" Level="0" Mode="1" HWCode="74"> -->
+    <KEY ID="65" Level="0" Mode="1" HWCode="68">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="65" Level="1" Mode="0" HWCode="0">
+    <!-- FN + CTRL => CTRL <KEY ID="65" Level="1" Mode="0" HWCode="0"> -->
+    <KEY ID="65" Level="1" Mode="1" HWCode="74">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>

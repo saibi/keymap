@@ -2,20 +2,20 @@
 <!--
 2023/05/30 MAC LAYOUT 
 
-    ESC F1  F2  F3  F4  F5  F6  F7  F8  F9  F10 F11 F12     DEL
+    ESC F1  F2  F3  F4  F5  F6  F7  F8  F9  F10 F11 F12     *PLAY
 FN      Mut V-  V+  StopPrevPlayNext kp B1  B2  B3  BT      USER
 
-    `~  1!  2@  3#  4$  5%  6^  7&  8*  9(  0)  -_  =+  BS  HOME
-FN	                *SC                             SL		PrtSc
+    `~  1!  2@  3#  4$  5%  6^  7&  8*  9(  0)  -_  =+  BS  *V+ 
+FN	                *SC                             SL	*DELPrtSc
 
-    TAB q   w   e   r   t   y   u   i   o   p   [{  ]}  \|  PGUP
-FN	*CA						                                Pause	
+    TAB q   w   e   r   t   y   u   i   o   p   [{  ]}  \|  *V- 
+FN	*CA						                            *InsPause	
 
-    *CT a   s   d   f   g   h   j   k   l   ;:  '"  ENT     PGDN
-FN												            INS
+    *CT a   s   d   f   g   h   j   k   l   ;:  '"  ENT     *PGUP 
+FN												            *HOME 
 
-    SHI     z   x   c   v   b   n   m   ,<  .>  /?  SHI UP  END
-FN										                *V+
+    SHI     z   x   c   v   b   n   m   ,<  .>  /?  SHI UP  *PGDN 
+FN										                *V+ *END
 
     *FN WIN ALT             SPC         ALT FN  *WINLT  DN  RT
 FN	>CA	LkWn WM	        *PLAY/PAUSE				*RCT*PR	*V- *NE
@@ -296,7 +296,8 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="14" Level="0" Mode="1" HWCode="84">
+    <!-- DEL => PLAY/PAUSE <KEY ID="14" Level="0" Mode="1" HWCode="84"> -->
+    <KEY ID="14" Level="0" Mode="5" HWCode="111">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -462,13 +463,15 @@ FN	>CA	LkWn WM
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="28" Level="1" Mode="0" HWCode="0">
+    <!-- FN + BS => DEL <KEY ID="28" Level="1" Mode="0" HWCode="0"> -->
+    <KEY ID="28" Level="1" Mode="1" HWCode="84">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
 
-    <KEY ID="29" Level="0" Mode="1" HWCode="82">
+    <!-- HOME => Volume Up <KEY ID="29" Level="0" Mode="1" HWCode="82"> -->
+    <KEY ID="29" Level="0" Mode="5" HWCode="113">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -628,13 +631,15 @@ FN	>CA	LkWn WM
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="43" Level="1" Mode="0" HWCode="0">
+    <!-- FN + | => INS <KEY ID="43" Level="1" Mode="0" HWCode="0"> -->
+    <KEY ID="43" Level="1" Mode="1" HWCode="81">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
 
-    <KEY ID="44" Level="0" Mode="1" HWCode="83">
+    <!-- PGUP => Volume Down <KEY ID="44" Level="0" Mode="1" HWCode="83"> -->
+    <KEY ID="44" Level="0" Mode="5" HWCode="114">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -789,12 +794,14 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="58" Level="0" Mode="1" HWCode="86">
+    <!-- PGDN => PGUP <KEY ID="58" Level="0" Mode="1" HWCode="86"> -->
+    <KEY ID="58" Level="0" Mode="1" HWCode="83">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="58" Level="1" Mode="1" HWCode="81">
+    <!-- FN + PGDN => HOME <KEY ID="58" Level="1" Mode="1" HWCode="81"> -->
+    <KEY ID="58" Level="1" Mode="1" HWCode="82">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -944,12 +951,14 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="72" Level="0" Mode="1" HWCode="85">
+    <!-- END => PGDN <KEY ID="72" Level="0" Mode="1" HWCode="85"> -->
+    <KEY ID="72" Level="0" Mode="1" HWCode="86">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="72" Level="1" Mode="0" HWCode="0">
+    <!-- FN + END => END <KEY ID="72" Level="1" Mode="0" HWCode="0"> -->
+    <KEY ID="72" Level="1" Mode="1" HWCode="85">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>

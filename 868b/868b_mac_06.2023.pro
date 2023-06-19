@@ -14,7 +14,7 @@ FN												STR	    	*End
     SHI     Z   X   C   V   B   N   M   ,<  .>  /?  SHI UP  *FN
 FN									*MutPRT	SLK PAU		*V+	END
 
-    *FN	WIN ALT             SPC         ALT *Win*Ctl LT  DN  RT
+    *FN	*Alt*Cmd            SPC         *Cmd*Alt*CtlLT  DN  RT
 FN	>CA	LkWn WM			    *Play				    *Prv*V- *Next
 
 
@@ -792,7 +792,8 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="60" Level="0" Mode="1" HWCode="68">
+    <!-- WIN => Opt <KEY ID="60" Level="0" Mode="1" HWCode="68"> -->
+    <KEY ID="60" Level="0" Mode="1" HWCode="69">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -803,7 +804,8 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="61" Level="0" Mode="1" HWCode="69">
+    <!-- ALT => Cmd <KEY ID="61" Level="0" Mode="1" HWCode="69"> -->
+    <KEY ID="61" Level="0" Mode="1" HWCode="68">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
@@ -826,19 +828,20 @@ FN	>CA	LkWn WM
         </ComboKey>
     </KEY>
 
-    <KEY ID="63" Level="0" Mode="1" HWCode="71">
+    <!-- ALT => *Cmd <KEY ID="63" Level="0" Mode="1" HWCode="71"> -->
+    <KEY ID="63" Level="0" Mode="1" HWCode="72">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="63" Level="1" Mode="0" HWCode="0">
+    <KEY ID="63" Level="1" Mode="1" HWCode="73">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
 
-    <!-- FN => WIN <KEY ID="64" Level="0" Mode="7" HWCode="156"> -->
-    <KEY ID="64" Level="0" Mode="1" HWCode="68">
+    <!-- FN => Alt <KEY ID="64" Level="0" Mode="7" HWCode="156"> -->
+    <KEY ID="64" Level="0" Mode="1" HWCode="71">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>

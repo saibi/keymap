@@ -15,7 +15,7 @@ FN												STR	    	*End
 FN									*MutPRT	SLK PAU		*V+	END
 
     *FN	*Alt*Cmd            SPC         *Cmd*Alt*CtlLT  DN  RT
-FN	>CA	LkWn WM			    *Play				    *Prv*V- *Next
+FN	>CA	LkWn WM			    *Play		*Menu       *Prv*V- *Next
 
 
 ### ORG LAYOUT ###

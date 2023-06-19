@@ -281,7 +281,7 @@ FN	>CA	LkWn WM
     </KEY>
 
     <!-- INS => ScreenShot cmd+shift+ctrl+4 <KEY ID="15" Level="0" Mode="1" HWCode="81"> -->
-    <KEY ID="15" Level="0" Mode="0" HWCode="0">
+    <KEY ID="15" Level="0" Mode="2" HWCode="0">
         <ComboKey>
             <List SizeOfView="6" ViewStartAt="0" CursorPos="1" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0">
                 <x ID="0" t1="Left Windows"><List SizeOfView="6" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/></x>
@@ -843,7 +843,7 @@ FN	>CA	LkWn WM
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>
     </KEY>
-    <KEY ID="64" Level="1" Mode="7" HWCode="156">
+    <KEY ID="64" Level="1" Mode="1" HWCode="0">
         <ComboKey>
             <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
         </ComboKey>

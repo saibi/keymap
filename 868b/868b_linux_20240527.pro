@@ -843,7 +843,7 @@ FN	>CA	LkWn WM
             </ComboKey>
         </KEY>
         <!-- Fn + Alt ==> R Menu -->
-        <KEY ID="63" Level="1" Mode="1" HWCode="72">
+        <KEY ID="63" Level="1" Mode="1" HWCode="73">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>

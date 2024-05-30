@@ -852,7 +852,7 @@ FN	>CA	LkWn WM
         </KEY>
 
         <!-- Fn ==> R Alt <KEY ID="64" Level="0" Mode="7" HWCode="156"> -->
-        <KEY ID="64" Level="0" Mode="1" HWCode="69">
+        <KEY ID="64" Level="0" Mode="1" HWCode="71">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>

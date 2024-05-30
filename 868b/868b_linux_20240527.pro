@@ -34,6 +34,8 @@ FN										PRT	SLK PAU			End
 
     CTL WIN ALT             SPC         ALT Fn  CTL LT  DN  RT
 FN	>CA	LkWn WM	
+                             MAC mode   Fn  CMD Opt 
+                                          (alt>)(ctrl>) 
 
 *STR : Stroke
 *>CA : CAPS to LCTL

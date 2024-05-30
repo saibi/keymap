@@ -14,7 +14,7 @@ FN												STR	    	*End
     SHI     Z   X   C   V   B   N   M   ,<  .>  /?  SHI UP  *Fn
 FN									*MutPRT	SLK PAU		*V+	END
 
-    *Fn	Win Alt             SPC         Alt *Ctl*WinlLT  DN  RT
+    *Fn	Win Alt             SPC         *Win*Alt*CtllLT  DN  RT
 FN	>CA	LkWn WM		      *Play		    *Menu       *Prv*V- *Next
 
 
@@ -844,21 +844,21 @@ FN	>CA	LkWn WM
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
         </KEY>
-        <!-- Fn + Alt ==> R Menu -->
-        <KEY ID="63" Level="1" Mode="1" HWCode="73">
+        <!-- Fn + Alt ==> R Ctrl -->
+        <KEY ID="63" Level="1" Mode="1" HWCode="74">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
         </KEY>
 
-        <!-- Fn ==> L Alt <KEY ID="64" Level="0" Mode="7" HWCode="156"> -->
-        <KEY ID="64" Level="0" Mode="1" HWCode="69">
+        <!-- Fn ==> R Alt <KEY ID="64" Level="0" Mode="7" HWCode="156"> -->
+        <KEY ID="64" Level="0" Mode="1" HWCode="61">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
         </KEY>
-        <!-- Fn + Fn==> R Alt <KEY ID="64" Level="1" Mode="1" HWCode="0"> -->
-        <KEY ID="64" Level="1" Mode="1" HWCode="71">
+        <!-- Fn + Fn==> R Menu <KEY ID="64" Level="1" Mode="1" HWCode="0"> -->
+        <KEY ID="64" Level="1" Mode="1" HWCode="73">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>

@@ -842,8 +842,8 @@ FN	>CA	LkWn WM
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
         </KEY>
-        <!-- Fn + Alt ==> R Alt -->
-        <KEY ID="63" Level="1" Mode="1" HWCode="71">
+        <!-- Fn + Alt ==> R Menu -->
+        <KEY ID="63" Level="1" Mode="1" HWCode="72">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
@@ -855,8 +855,8 @@ FN	>CA	LkWn WM
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
         </KEY>
-        <!-- Fn + Fn==> R Menu <KEY ID="64" Level="1" Mode="1" HWCode="0"> -->
-        <KEY ID="64" Level="1" Mode="1" HWCode="73">
+        <!-- Fn + Fn==> R Alt <KEY ID="64" Level="1" Mode="1" HWCode="0"> -->
+        <KEY ID="64" Level="1" Mode="1" HWCode="71">
             <ComboKey>
                 <List SizeOfView="0" ViewStartAt="0" CursorPos="0" Cycles="1" IsAutoInterval="0" Delay="30" PlayMode="0"/>
             </ComboKey>
